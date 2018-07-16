@@ -99,4 +99,3 @@ if args.dork:
 if args.list:
 	sub = False
 	extract_dork(args.list, args.scan)
-rgv[2])
