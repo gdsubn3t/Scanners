@@ -29,6 +29,6 @@ def sqlscan(url):
 		else:
 			print("%sSQL injection not Found: %s%s" %(WHITE, RED, url))
 	except KeyboardInterrupt:
-		sys.exit()
+		sys.close()
 	except:
 		pass
